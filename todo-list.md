@@ -5,4 +5,5 @@
 * Distributed Algorithm(paxos, zab, raft, gossip)
 * TCP Performance Tuning
 * storage(kafka, hbase, cassandra)
+* RDBMS(like ACID)
 * cache(redis) 

@@ -7,8 +7,8 @@
 ## demo
 
 		http://spccold:123@localhost:8080/index.html#fragment
-		userInfo : wuwo:123
-		authority: wuwo:123@localhost:8080
+		userInfo : spccold:123
+		authority: spccold:123@localhost:8080
 		
 		http://spccold:123@localhost/index.html#fragment
-		authority: wuwo:123@localhost
+		authority: spccold:123@localhost

@@ -34,3 +34,6 @@
 
 		// 查看当前git repository的git url
 		git config --get remote.origin.url
+		
+		//清除无用的远程分支 
+		git remote prune origin

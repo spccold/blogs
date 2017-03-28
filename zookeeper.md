@@ -5,6 +5,5 @@
 2. ant eclipse
 3. eclipse -> import(General)
 4. edit conf/zoo.cf(dataDir and dataLogDir)
-5. edit org.apache.zookeeper.server.ZooKeeperServerMain.main(String[]) with correct zoo.cfg full path
-6. build path -> Configure Build path -> Add folder -> choose main/resources
+5. build path -> Configure Build path -> Add folder -> choose main/resources(log4j.properties&zoo.cfg)
 ~~~

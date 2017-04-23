@@ -7,3 +7,4 @@
 * storage(kafka, hbase, cassandra)
 * RDBMS(like ACID)
 * cache(redis) 
+* data structure(B+,LSM Tree)

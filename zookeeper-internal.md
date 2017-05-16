@@ -42,3 +42,4 @@
 * 当readTimeout或者connectTimeout出现的时候, 客户端会抛出SessionTimeoutException
 * 客户端发生异常的时候(常见的例如SessionTimeoutException, SessionExpiredException), 连接会重新建立, 当seenRwServerBefore为true的时候, 会用之前的sessionId和sessionPasswd发送ConnectRequest, 注意此时如果发生的异常是SessionExpiredException, 并且seenRwServerBefore为true时一定要关闭当前的Zookeeper, 重新建立新的Zookeeper实例, 因为此时的sessionId已经不合法
 * 客户端需要关注的是KeeperState, 而不是States
+* EventType.NodeChildrenChanged只关注子节点的创建和删除，并不关注子节点的数据的变化

@@ -45,6 +45,8 @@
 * EventType.NodeChildrenChanged只关注子节点的创建和删除，并不关注子节点的数据的变化
 
 ## zookeeper 客户端程序测试场景
-1. 客户端与服务端之间的网络异常
-2. 服务端异常退出
-3. 发生master选举，master发生切换
+* 客户端与服务端之间的网络异常 
+	* SessionTimeoutException
+	* SessionExpirationException 
+* 服务端异常退出
+* 发生master选举，master发生切换
